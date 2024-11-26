@@ -1,0 +1,2 @@
+# paraguay
+ Covid Database
