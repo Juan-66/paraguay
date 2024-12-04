@@ -2,7 +2,7 @@ const repoOwner = "Juan-66";
 const repoName = "paraguay";
 const branch = "main"; // Cambia si usas otra rama
 const baseApiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents`;
-const token = "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"; // Sustituye por tu token generado
+const token = "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"; // Sustituye por tu token generado
 
 async function fetchRepoContent(path = "") {
     const url = `${baseApiUrl}/${path}?ref=${branch}`;
